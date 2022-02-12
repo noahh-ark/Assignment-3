@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a game where you help your turtle eat apples.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
+    <link rel="manifest" href="./Favicon/site.webmanifest">
+    <link rel="mask-icon" href="./Favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./Favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="./Favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+        .svg {
+            width: 10%;
+        }
+    </style>
+
+    <title>Turtles Eat Apples</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li><a href="./Game/index.html">Game</a></li>
+                <li><a href="./Profile/index.html">Profile</a></li>
+            </ul>
+        </nav>
+        <svg viewBox="0 0 120 120" width="200" height="200">
+            <!-- shell -->
+            <ellipse cx="70" cy="60" rx="20" ry="18" fill="none" stroke="green" />
+            <!-- head -->
+            <circle cx="40" cy="55" r="8" fill="none" stroke="green" />
+            <!-- top neck -->
+            <line x1="48" x2="50" y1="55" y2="58" stroke="green" />
+            <!-- bottom neck -->
+            <line x1="43" x2="52" y1="62" y2="68" stroke="green" />
+            <!-- front leg -->
+            <polyline points="55, 72 52, 85 59, 85 60, 76" stroke="green" fill="none"/>
+            <!-- back leg -->
+            <polyline points="80, 76 83, 85 90, 85 85, 72" stroke="green" fill="none"/>
+        
+        </svg>
+    </header>
+
+    <picture>
+        <source srcset="./Images/seaturtle-1600w.jpg" media="(min-width: 901px)">
+        <source srcset="./Images/seaturtle-900w.jpg" media="(min-width: 501px)">
+        <source srcset="./Images/seaturtle-500w.jpg" media="(max-width: 500px)">
+        <img src="./Images/Red-Eared Turtle.jpg" alt="other turtle">
+    </picture>
+
+    <main>
+        <h1>Turtles Eat Apples</h1>
+        <article>
+            <h3>What Is This?</h3>
+            <p>This is a game where you help your turtle eat apples.</p>
+            <img class="svg" src="./Images/turtlesvg.svg">
+            <ol>Food Chain
+                <li>Turtles</li>
+                <li>Apples
+                    <ul>
+                        <li>(Sunlight?)</li>
+                    </ul>
+                </li>
+            </ol>
+            <dl>
+                <dt>Turtles
+                    <dd>Animals with shells</dd>
+                </dt>
+                <dt><a href="https://en.wikipedia.org/wiki/Apple" target="blank">Apples</a>
+                    <dd>Harmless fruit</dd>
+                </dt>
+            </dl>
+        </article>
+        <figure>
+            <img src="./Images/apples.jpg" width="600px" height="auto" loading="lazy">
+            <figcaption>Apples</figcaption>
+            <img src="./Images/Red-Eared Turtle.jpg" width="600px" height="auto" loading="lazy">
+            <figcaption>Turtle</figcaption>
+        </figure>
+        <article>
+            <h3>How This Started</h3>
+            <p><strong>Turtles Eat Apples</strong> began with an assignment for a Web Design class where the objective was to build a simple website.</p>
+        </article>
+        <aside>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint illo sit voluptates at, ratione nisi commodi officiis ea quod molestias reprehenderit architecto iure, a quasi nulla quis consectetur doloremque totam.</p>
+        </aside>
+
+    </main>
+    <foot>
+        <p><em>Copywright 2022</em>, Noah Steven Clark, LLC</p>
+    </foot>
+</body>
+</html>
